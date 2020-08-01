@@ -1,7 +1,7 @@
 Ansible role: timesync
 ======================
 
-An Ansible role for managing systemd-timesyncd
+An Ansible role for managing systemd-timesyncd, the systemd built-in NTP client.
 
 Requirements
 ------------
