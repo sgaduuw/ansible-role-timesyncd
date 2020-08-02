@@ -19,3 +19,7 @@ provisioner:
   name: ansible
   playbooks:
     converge: converge.yml
+
+scenario:
+  name: default
+  idempotent: false
