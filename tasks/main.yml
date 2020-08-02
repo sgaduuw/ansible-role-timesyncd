@@ -27,7 +27,7 @@
   ignore_errors: yes
 
 - name: Manage systemd-timesyncd service to be enabled and running
-  service:
+  systemd:
     name: "{{ item }}"
     state: started
     enabled: yes
