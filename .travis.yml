@@ -3,8 +3,6 @@ language: python
 services: docker
 
 env:
-  global:
-    - ROLE_NAME: timesyncd
   matrix:
     - MOLECULE_DISTRO: centos8
     - MOLECULE_DISTRO: ubuntu2004
@@ -16,8 +14,8 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME sgaduuw.$ROLE_NAME
-  - cd sgaduuw.$ROLE_NAME
+  - mv ansible-role-timesyncd sgaduuw.timesyncd
+  - cd sgaduuw.timesyncd
 
 script:
   # Run tests.
