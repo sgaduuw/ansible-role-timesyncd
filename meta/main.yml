@@ -24,6 +24,9 @@ galaxy_info:
         - bionic
         - artful
         - zesty
+    - name: EL
+      versions:
+        - 8
 
   galaxy_tags:
     - system
