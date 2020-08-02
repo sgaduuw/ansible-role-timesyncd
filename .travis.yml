@@ -6,8 +6,8 @@ env:
   matrix:
     - MOLECULE_DISTRO: centos8
     - MOLECULE_DISTRO: ubuntu2004
-    - MOLECULE_DISTRO: ubuntu1910
-    - MOLECULE_DISTRO: ubuntu1904
+    - MOLECULE_DISTRO: ubuntu1804
+    - MOLECULE_DISTRO: ubuntu1604
 
 install:
   # Install test dependencies.
