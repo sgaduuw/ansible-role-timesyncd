@@ -33,3 +33,5 @@
     enabled: yes
   with_items:
     - systemd-timesyncd.service
+  tags:
+    - molecule-idempotence-notest
