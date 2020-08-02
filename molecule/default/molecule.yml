@@ -22,4 +22,4 @@ provisioner:
 
 scenario:
   name: default
-  idempotent: false
+  idempotence: false
