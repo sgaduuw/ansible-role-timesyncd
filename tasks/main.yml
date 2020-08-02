@@ -1,4 +1,10 @@
 ---
+- name: Install systemd-timesyncd
+  package:
+    name:
+      - systemd-timesyncd
+    state: installed
+
 - name: Set NTP server in /etc/systemd/timesyncd.conf
   template:
     src: timesyncd.conf
