@@ -4,6 +4,8 @@
     name:
       - systemd-timesyncd
     state: installed
+  when:
+    - ansible_os_family == 'RedHat'
 
 - name: Set NTP server in /etc/systemd/timesyncd.conf
   template:
