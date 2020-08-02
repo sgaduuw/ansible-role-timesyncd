@@ -33,4 +33,3 @@
     enabled: yes
   with_items:
     - systemd-timesyncd.service
-    - systemd-time-wait-sync.service
