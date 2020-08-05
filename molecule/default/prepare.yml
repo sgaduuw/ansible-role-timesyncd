@@ -1,0 +1,13 @@
+---
+- name: Prepare
+  hosts: all
+  tasks:
+    - name: install prerequisites
+      apt:
+        name:
+          - dbus
+          - tzdata
+        state: present
+        update_cache: yes
+      when:
+        - ansible_facts['os_family'] == "Debian"
