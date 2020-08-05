@@ -2,9 +2,11 @@
 - name: Prepare
   hosts: all
   tasks:
-    - name: install dbus
+    - name: install prerequisites
       apt:
-        name: dbus
+        name:
+          - dbus
+          - tzdata
         state: present
         update_cache: yes
       when:
