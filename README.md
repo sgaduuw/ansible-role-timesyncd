@@ -12,7 +12,7 @@ Role Variables and their defaults
 --------------
 The variables used in this role with their defaults as example:
 ```
-ntp_timezone: UTC
+ntp_timezone: Etc/UTC
 ntp_servers:
   - 0.pool.ntp.org
   - 1.pool.ntp.org
