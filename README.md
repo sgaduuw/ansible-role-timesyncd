@@ -18,6 +18,15 @@ ntp_servers:
   - 1.pool.ntp.org
   - 2.pool.ntp.org
   - 3.pool.ntp.org
+ntp_servers_fallback: []
+```
+The default for `ntp_servers_fallback` is an empty list. To make use of fallback NTP servers, simply create a list of servers, eg:
+```
+ntp_servers_fallback:
+  - time1.google.com
+  - time2.google.com
+  - time3.google.com
+  - time4.google.com
 ```
 
 Dependencies
