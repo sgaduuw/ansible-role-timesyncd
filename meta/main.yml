@@ -35,7 +35,12 @@ galaxy_info:
   galaxy_tags:
     - system
     - ntp
+    - ntpd
     - date
     - time
+    - timezone
+    - timesync
+    - timesyncd
+    - systemd
 
 dependencies: []
