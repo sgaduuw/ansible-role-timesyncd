@@ -17,8 +17,8 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-timesyncd sgaduuw.timesyncd
-  - cd sgaduuw.timesyncd
+  - mv ansible-role-timesyncd timesyncd
+  - cd timesyncd
 
 script:
   # Run tests.
